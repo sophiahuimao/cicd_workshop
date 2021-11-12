@@ -1,10 +1,14 @@
 version: 0.2
 
 phases:
+  install:
+    commands:
+      - npm install -g @angular/cli
+
   build:
     commands:
       - echo Linting project...
-      - npm run lint
+      - ng lint
 
   post_build:
     commands:
