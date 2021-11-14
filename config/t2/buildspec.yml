@@ -4,6 +4,9 @@ env:
     BUILD_ENV: prod
 
 phases:
+  install:
+    commands:
+      - npm install -g @angular/cli
   build:
     commands:
       - echo Building project...
