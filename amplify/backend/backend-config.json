@@ -1,6 +1,6 @@
 {
   "auth": {
-    "namethatcatworkshop1afc96e9": {
+    "namethatcatworkshop5bb3f966": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
